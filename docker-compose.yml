@@ -1,9 +1,9 @@
 services:
   app:
     build: .
-    container_name: nodejs02A
+    container_name: nestjs01
     ports:
-      - "3000:3000"  # Maps port 3000 to the host
+      - "3001:3001"  # Maps port 3001 to the host
     depends_on:
       - mysql
     networks:

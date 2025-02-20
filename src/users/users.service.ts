@@ -10,6 +10,6 @@ export class UsersService {
     async findOne(condition: any): Promise<User> {
         //return this.userRepository.findOneBy(condition)
         //return this.userRepository.findOneByOrFail(condition)
-        return this.userRepository.findOneByOrFail({"id":20})
+        return this.userRepository.findOneByOrFail({"id":2})
     }
 }
